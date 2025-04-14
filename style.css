@@ -1,34 +1,174 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+*    {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
 }
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
-    text-align: center;
+html {
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
-nav {
-    margin: 0;
-    padding: 1rem;
-    background-color: #444;
+:root {
+    --main: purple;
+    --primary: yellow;
 }
-nav a {
-    color: #fff;
-    margin: 0 1rem;
+
+/* styling header */
+#header {
+    display: flex;
+    font-size: 1rem;
+    justify-content: space-between;
+    padding: 2% 5%;
+    background-color: #03A9F4;
+    font-family: arial black;
+}
+
+/* styling header */
+.nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.nav a {
     text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    font-size: 2rem;
 }
-main {
-    padding: 2rem;
+.nav a:hover {
+    color: var(--primary);
 }
-footer {
-    background-color: #333;
-    color: #fff;
+.logo p {
+    color:black;
+    font-size: 1.7rem;
+}
+/* styling header done */
+
+/* styling banner */
+.banner {
+    background-image: url(../images/eni\ football\ background1.jpeg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding: 12% 5%;
+    text-align: start;
+}
+.banner p {
+    font-size: 2.7rem;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    /* padding: 10% 5%; */
+}
+.banner ul {
+    font-size: 3.0rem;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+}
+.banner button {
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    margin-top: 3%;
+    padding: 10px;
+    background-color:#03A9F4;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-family: arial black;
+}
+/* styling banner done*/
+
+/* styling league */
+#leagues {
+    margin: 5% 5%;
+}
+#leagues h1 {
+    font-size: 3.0rem;
     text-align: center;
-    padding: 1rem;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    text-transform: uppercase;
+    font-family: arial bold;
+    color: red;
 }
+#leagues img {
+    height: 250px;
+    width: 270px;
+}
+.serve {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.serve > div {
+    background-color: #03A9F4;
+    height: 50vh;
+    padding: 2px;
+    border-radius: 1rem;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: 0 0 30px black;
+}
+.serve > div:hover {
+    transform: translateY(-15px);
+}
+.serve p {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    text-transform: capitalize;
+    margin-top: 7%;
+}
+/* styling leagues done*/
+
+/* styling footer */
+#footer {
+    margin-top: 5%;
+    padding: 5% 5%;
+    background-color: #03A9F4;
+}
+.foot1 {
+    display: flex;
+    justify-content: space-between;
+}
+.foot1 p {
+    font-size: 1.7rem;
+    color: black;
+    font-family: arial black;
+}
+.foot1 h2 {
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    margin-bottom: 5%;
+    text-align: center;
+    color: white;
+}
+.foot1 ul {
+    list-style: none;
+    text-align: center;
+}
+.foot1 a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    color: black;
+}
+.foot1 i {
+    font-size: 2rem;
+    color: var(--primary);
+}
+.foot1 .socials ul {
+    display: flex;
+    gap: 10px;
+    margin-top: 25%;
+    color: white;
+}
+.foot2 {
+    font-size: 1.6rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-transform: capitalize;
+    padding: 2% 0;
+}
+.foot2 p {
+    font-size: 1.2rem;
+}
+/* styling footer done*/

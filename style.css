@@ -1,4 +1,4 @@
-*    {
+*  {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
@@ -171,4 +171,27 @@ html {
 .foot2 p {
     font-size: 1.2rem;
 }
+.Aboutus-page p{
+    font-size: 25px;
+    color: white;
+    position: relative;
+  background-image: url("images/Eni 3.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* This is the "dark glass" effect */
+  z-index: 0;
+}
+
+    
+    
+
 /* styling footer done*/

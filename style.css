@@ -15,11 +15,12 @@ html {
 /* styling header */
 #header {
     display: flex;
-    font-size: 1rem;
+    font-size: 1.5rem;
     justify-content: space-between;
     padding: 2% 5%;
-    background-color: #03A9F4;
-    font-family: arial black;
+    background-color:#045694;
+    font-family: arial white;
+    
 }
 
 /* styling header */
@@ -38,23 +39,30 @@ html {
     color: var(--primary);
 }
 .logo p {
-    color:black;
-    font-size: 1.7rem;
+    font-size: 3rem;       
+    font-weight: bold;    
+    color:white;         
+    font-family: Arial Black, sans-serif;
 }
 /* styling header done */
 
 /* styling banner */
 .banner {
-    background-image: url(../images/eni\ football\ background1.jpeg);
-    height: 100vh;
     background-position: center;
     background-size: cover;
-    padding: 12% 5%;
-    text-align: start;
+    padding: 20px; /* Enough spacing around text */
+    text-align: center;
+    border-radius: 30px;
+    max-width: 800px; /* Wider box */
+    margin: auto; /* Center it horizontally */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    color: black;
+    font-size: 1.8rem;
+    background-color: rgba(255, 255, 255, 0.8);
 }
 .banner p {
     font-size: 2.7rem;
-    color: white;
+    color: black;
     font-family:'Times New Roman', Times, serif;
     /* padding: 10% 5%; */
 }
@@ -68,8 +76,8 @@ html {
     font-size: 1.6rem;
     margin-top: 3%;
     padding: 10px;
-    background-color:#03A9F4;
-    color: white;
+    background-color:#045694;
+    color: black;
     border: none;
     border-radius: 1rem;
     cursor: pointer;
@@ -86,7 +94,7 @@ html {
     text-align: center;
     text-transform: uppercase;
     font-family: arial bold;
-    color: red;
+    color: black
 }
 #leagues img {
     height: 250px;
@@ -98,7 +106,7 @@ html {
     margin-top: 5%;
 }
 .serve > div {
-    background-color: #03A9F4;
+    background-color: #aad4e8;
     height: 50vh;
     padding: 2px;
     border-radius: 1rem;
@@ -112,7 +120,7 @@ html {
 .serve p {
     text-align: center;
     font-size: 2rem;
-    color: white;
+    color: black;
     text-transform: capitalize;
     margin-top: 7%;
 }
@@ -122,7 +130,7 @@ html {
 #footer {
     margin-top: 5%;
     padding: 5% 5%;
-    background-color: #03A9F4;
+    background-color:#045694;
 }
 .foot1 {
     display: flex;
@@ -131,14 +139,14 @@ html {
 .foot1 p {
     font-size: 1.7rem;
     color: black;
-    font-family: arial black;
+    font-family: arial White;
 }
 .foot1 h2 {
     font-size: 1.7rem;
     text-transform: capitalize;
     margin-bottom: 5%;
     text-align: center;
-    color: white;
+    color: black;
 }
 .foot1 ul {
     list-style: none;
@@ -158,38 +166,30 @@ html {
     display: flex;
     gap: 10px;
     margin-top: 25%;
-    color: white;
+    color: black;
 }
 .foot2 {
     font-size: 1.6rem;
     text-align: center;
-    background-color: black;
-    color: white;
+    background-color:#045694;
+    color: black;
     text-transform: capitalize;
     padding: 2% 0;
 }
 .foot2 p {
     font-size: 1.2rem;
 }
-.Aboutus-page p{
+.Aboutus-page {
     font-size: 25px;
-    color: white;
-    position: relative;
-  background-image: url("images/Eni 3.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+    color: black;
+    text-wrap:initial;
+    font-style: oblique;
+
 }
-body::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* This is the "dark glass" effect */
-  z-index: 0;
-}
+   
+    
+
+
 
     
     

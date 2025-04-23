@@ -60,6 +60,20 @@ html {
     font-size: 1.8rem;
     background-color: rgba(255, 255, 255, 0.8);
 }
+.banner2 {
+    background-position: center;
+    background-size: cover;
+    padding: 20px; /* Enough spacing around text */
+    text-align: center;
+    border-radius: 30px;
+    max-width: 800px; /* Wider box */
+    margin: auto; /* Center it horizontally */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    color: black;
+    font-size: 1.8rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    
+}
 .banner p {
     font-size: 2.7rem;
     color: black;
@@ -106,7 +120,7 @@ html {
     margin-top: 5%;
 }
 .serve > div {
-    background-color: #aad4e8;
+    background-color: #045694;
     height: 50vh;
     padding: 2px;
     border-radius: 1rem;
@@ -184,6 +198,17 @@ html {
     color: black;
     text-wrap:initial;
     font-style: oblique;
+    background-position: center;
+    background-size: cover;
+    padding: 20px; /* Enough spacing around text */
+    text-align: center;
+    border-radius: 30px;
+    max-width: 800px; /* Wider box */
+    margin: auto; /* Center it horizontally */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    color: black;
+    font-size: 1.8rem;
+    background-color: rgba(255, 255, 255, 0.8);
 
 }
    

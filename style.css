@@ -67,10 +67,7 @@ body{
     background-size: cover;
     padding: 20px; /* Enough spacing around text */
     text-align: center;
-    
-    
     margin: auto; /* Center it horizontally */
-    
     color: black;
     font-size: 1.8rem;
     background-color: rgba(255, 255, 255, 0.8);
@@ -82,10 +79,7 @@ body{
     background-size: cover;
     padding: 20px; /* Enough spacing around text */
     text-align: center;
-
-    
     margin: auto; /* Center it horizontally */
-   
     color: black;
     font-size: 1.8rem;
     background-color: rgba(255, 255, 255, 0.8);
@@ -94,9 +88,7 @@ body{
     background-size: cover;
     padding: 20px; /* Enough spacing around text */
     text-align: center;
-  
     margin: auto; /* Center it horizontally */
-    
     color: black;
     font-size: 1.8rem;
     background-color: rgba(255, 255, 255, 0.8);
@@ -227,18 +219,10 @@ body{
     background-size: cover;
     padding: 20px; /* Enough spacing around text */
     text-align: center;
-
-    
     margin: auto; /* Center it horizontally */
-   
     color: black;
     font-size: 1.8rem;
     background-color: rgba(255, 255, 255, 0.8);
-
-}.league-page{
-    
-
-}
    
     
 
